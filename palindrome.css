@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  body{
+    font-family:  font-family: "Lato", Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+  background-color: #4682b4;
+  }
+  
+  header{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  h1{
+    font-size: 25px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .paragragh-1{
+    font-size: 1.5rem ;
+    margin-top: -10px;
+  }
+  
+  .input-container{
+    background-color: white;
+    width: min(100vw, 450px);
+    max-width: 1400px;
+    height: 150px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px #000;
+    margin-bottom: 50px
+  }
+  
+  .input-container p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  input{
+    width: 50%;
+    margin-left: 25px;
+    margin-top: 45px;
+    border: none;
+    border-bottom: 2px solid red;
+  }
+  
+  button{
+    background-color: red;
+    border: none;
+    padding: 5px;
+    border-radius: 12px;
+    width: 100px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  
+  .info{
+    width: min(100vw, 400px);
+    background-color: #ffdab9;
+    padding: 28px;
+    border-radius: 20px;
+    height: 80px;
+    display: flex;
+  }
+    .result{
+      text-align: center;
+      margin-top: 15px;
+      font-size: 25px;
+      font-weight: 900;
+    }
+  
+  .info p{
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+    margin-left: 13px;
+  }
+
+  span{
+    font-size: 1.5rem;
+    color: red;
+  }
+
+  @media (max-width: 450px){
+     h1{
+      font-size: 20px;
+     }
+     .paragragh-1{
+      font-size: 1rem;
+     }
+      .input-container, .info{
+         width: min(70vw, 350px);
+         padding: 20px;
+      }
+  }
